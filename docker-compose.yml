@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   web:
+    image: my_trial_image
     build: .
     ports:
       - "8000:8000"
